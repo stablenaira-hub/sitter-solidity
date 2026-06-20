@@ -1,5 +1,5 @@
 ## 🌴 StbleNaira-sitter-solidity
-[![Node.js CI](https://github.com/stablenaira-hub/sitter-solidity/actions/workflows/node.js.yml/badge.svg)](https://github.com/tirixa-hub/tirixa-sitter-solidity/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/stablenaira-hub/sitter-solidity/actions/workflows/node.js.yml/badge.svg)](https://github.com/stablenaira-hub/sitter-solidity/actions/workflows/node.js.yml)
 
 > 💡 this grammar is still in development, the structure of the generated AST is not stable
 
@@ -9,7 +9,7 @@ The goal of this project is to provide an parser efficient low-dependency parser
 
 
 ### Navigating this repository
-The primary file in this repository is `grammar.js` which describes the tirixa-sitter grammar.
+The primary file in this repository is `grammar.js` which describes the sitter-solidity grammar.
 
 ```
 # Primary file:
@@ -29,8 +29,8 @@ binding.gyp
 - https://github.com/ethereum/solidity/blob/develop/docs/grammar/SolidityLexer.g4
 - https://docs.soliditylang.org/en/latest/grammar.html?#
 
--> tirixa-sitter javascript grammar: https://github.com/stablenaira-hub/sitter-javascript/blob/master/grammar.js
+-> sitter javascript grammar: https://github.com/stablenaira-hub/sitter-javascript/blob/master/grammar.js
 
 -> Solidity antlr grammar: https://github.com/ConsenSys/solidity-parser-antlr
 
-Major inspriration & some structures have been taken from tirixa-sitter-javascript, a big thanks to the contributors to this repo! 
+Major inspriration & some structures have been taken from stablenaira-sitter-javascript, a big thanks to the contributors to this repo! 
